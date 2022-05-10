@@ -1,4 +1,4 @@
-*{  
+*{
     box-sizing: border-box;
     font-family: 'Nunito Sans', sans-serif;
     font-family: 'Outfit', sans-serif;
@@ -8,6 +8,7 @@ body{
     min-height: 100vh;
     align-items: center;
     justify-content: center;
+    background-color:  hsl(217, 54%, 11%);
 }
 .nft-card{
     background-color:hsl(216, 50%, 16%);
@@ -15,30 +16,41 @@ body{
     padding: 15px;
     min-height: 350px;
     min-width: 300px;
-    border-radius: 8px;
+    border-radius: 10px;
 }
 .nft-card img{
     border-radius: 10px;
     height: 300px;
     width: 270px;
 }
+.nft-card img:hover{
+    cursor: pointer;
+}
 .icons img{
-    height: 15px;
-    width: 10px;
+    margin-right: 5px;
+    height: 20px;
+    width: 20px;
 }
 .icons{
     display: flex;
     justify-content: space-between;
 }
 .eth-icon{
+    display: flex;
+    align-items: center;
     color: hsl(178, 100%, 70%);
 }
 
 .clock-icon{
+    display: flex;
+    align-items: center;
     color:hsl(215, 51%, 70%) ;
 }
 .nft-card h4 {
-    color: white;
+    color: hsl(178, 100%, 70%);
+}
+.nft-card h4:hover{
+    cursor: pointer;
 }
 .nft-card p{
     color: hsl(215, 51%, 70%);
@@ -50,12 +62,17 @@ body{
 }
 .avatar img{
     margin-top: 10px;
-    height: 40px;
-    width: 40px;
+    height: 45px;
+    width: 45px;
+    border-radius: 50px;
+    border: 1px solid hsl(0, 0%, 100%);
 }
 .avatar p{
     margin-left: 10px;
 }
 .name{
-    color: white;
+    color: hsl(178, 100%, 70%);
+}
+.name:hover{
+    cursor: pointer;
 }
